@@ -115,8 +115,7 @@ img {
 
 .links {
    padding: 0px;
-   margin-top: 10px;
-
+   margin-top: 20px;
    border-radius: 10px;
    border: purple;
    box-shadow: 2px 2px 5px 5px #790491;
@@ -126,7 +125,8 @@ img {
 }
 
 #links {
-   padding: 2px;
+   display: inline-block;
+   padding:0px;
    margin: 0 auto;
    background-color: #cc058a;
    border-radius: 10px;
