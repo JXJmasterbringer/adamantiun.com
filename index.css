@@ -1,0 +1,138 @@
+* {
+   color: #fdfdfd;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+   min-height: 100%;
+}
+
+
+body {
+   background-color: #0c0c0c;
+   color: #f8f7f7da;
+   font-family: 'Courier New', Courier, monospace;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   gap: 30px;
+   padding: 90px 20px 20px;
+}
+
+.topo {
+   position: relative;
+   bottom: 100px;
+   left: 0;
+   width: 100%;
+   font-size: 32px;
+   text-align: center;
+   padding: 30px 0;
+   border-bottom: 1px solid rgba(235, 231, 231, 0.1);
+   z-index: 10;
+}
+
+#inicio {
+   width: 100%;
+   text-align: center;
+}
+
+#parceiros {
+   width: 100%;
+   display: block;
+   padding: 0;
+   margin: 0 auto;
+}
+
+#marcus1,
+#eu,
+#lulu {
+   border-radius: 10px;
+   border: purple;
+   box-shadow: 0px 0px 5px 5px #710ccf;
+   width: min(600px, 80%);
+   max-width: 100%;
+   text-align: center;
+   padding: 20px;
+   margin: 30px auto;
+   overflow: hidden;
+}
+
+img {
+   border-radius: 10px;
+   border: purple;
+   box-shadow: 2px 2px 5px 5px #04f5c1;
+   display: block;
+   width: 100%;
+   max-width: 500px;
+   height: auto;
+   object-fit: cover;
+   margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+   #marcus1,
+   #eu,
+   #lulu {
+       width: 100%;
+       padding: 16px 12px;
+   }
+
+   img {
+       max-width: 100%;
+   }
+}
+
+.icones {
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
+   padding: 1px;
+   margin-top: 20px;
+}
+
+.icones a {
+   color: #ffffff;
+   background-color: transparent;
+}
+
+.fim {
+
+   color: #fdfdfd;
+   text-align: center;
+   display: block;
+   width: 100%;
+   padding: 1px 0;
+   margin-top: 100%;
+}
+
+.links {
+   padding: 0px;
+   margin-top: 10px;
+
+   border-radius: 10px;
+   border: purple;
+   box-shadow: 2px 2px 5px 5px #790491;
+   font-size: 30px;
+
+
+}
+
+#links {
+   padding: 2px;
+   margin: 0 auto;
+   background-color: #cc058a;
+   border-radius: 10px;
+   border: purple;
+   box-shadow: 0px 0px 5px 5px #790491;
+   font-size: 30px;
+
+
+}
