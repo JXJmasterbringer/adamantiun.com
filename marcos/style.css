@@ -25,18 +25,6 @@ body {
    padding: 90px 20px 20px;
 }
 
-.topo {
-   position: relative;
-   bottom: 29%;
-   margin: auto 0;
-   width: 101%;
-   font-size: 32px;
-   text-align: center;
-   padding: 30px;
-   border-bottom: 1px solid rgba(235, 231, 231, 0.1);
-   z-index: 10;
-   
-}
 
 #inicio {
    width: 100%;
